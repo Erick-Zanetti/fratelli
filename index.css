@@ -1,0 +1,232 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+html, body {
+    height: 100%;
+    max-width: 100%;
+}
+.row {
+    margin-right: 0;
+    margin-left: 0;
+}
+#conteudoPagina {
+    min-height: calc(100% - 150px);
+}
+header {
+    min-height: 150px;
+    background: #840000; /* Old browsers */
+    background: -moz-linear-gradient(top, #840000 0%, #d80000 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(top, #840000 0%,#d80000 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to bottom, #840000 0%,#d80000 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#840000', endColorstr='#d80000',GradientType=0 ); /* IE6-9 */
+}
+header div {
+    height: 100%;
+}
+.linha-menu div {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    color: #FFF;
+}
+.linha-preta {
+    height: 4px;
+    width: 100%;
+    background-color: #000;
+}
+.logo {
+    padding: 10px;
+    width: 210px;
+    height: 150px;
+}
+.col-logo {
+    justify-content: baseline !important;
+}
+.options-menu {
+    font-family: 'Barlow', sans-serif;
+    cursor: pointer;
+    width: 100%;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 35px;
+    border-radius: 5px;
+    margin-bottom: 5px;
+}
+.options-menu:hover {
+    background-color: #a90000;
+}
+.titulo-paginas h1{
+    font-family: 'Pacifico', cursive;
+    height: 85px;
+    padding: 20px 60px;
+    font-size: 45px;
+}
+.iframa-googleMaps, .lista-contatos {
+    background-color: #a6a6a6;
+}
+.lista-contatos {
+    text-align: center;
+}
+.linha-vermelha {
+    height: 4px;
+    width: 100%;
+    background-color: #a61916;
+}
+.fixo-fimPage {
+    left: 0;
+    bottom: 0;
+    width: 100%;
+}
+footer {
+    font-family: Calibri, Candara, Segoe, "Segoe UI", Optima, Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #191919;
+    min-height: 80px;
+    color: #FFF;
+}
+@media (max-width: 576px) {
+    .fixo-fimPage {
+        position: inherit;
+    }
+    .linha-menu {
+        font-size: 15px;
+    }
+    .linha-menu div {
+        padding: 0;
+    }
+    .titulo-grande {
+        font-size: 22px !important;
+    }
+    .logo {
+        padding: 25px;
+        width: 100%;
+        height: auto;
+    }
+    .titulo-paginas h1 {
+        padding: 20px 20px;
+    }
+    .t1 {
+        width: 70px;
+        height: 70px;
+    }
+    .t2 {
+        width: 60px;
+        height: 60px;
+    }
+    .t3 {
+        width: 50px;
+        height: 50px;
+    }
+    .t4 {
+        width: 40px;
+        height: 40px;
+    }
+    .t5 {
+        width: 30px;
+        height: 30px;
+    }
+}
+@media (min-width: 767.98px) {
+    header {
+        height: 150px;
+    }
+}
+.margin-footer {
+    margin: 5px 0;
+}
+h2 {
+    margin-top: 5px;
+    font-size: 15px;
+    font-family: 'Barlow', sans-serif;
+}
+.color-white {
+    color: #FFF;
+}
+.alinhamento-icone {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.alinhamento-icone img {
+    margin-bottom: 2px;
+    margin-right: 5px;
+}
+.lista-contatos {
+    padding: 20px;
+    -webkit-box-shadow: inset 0px 3px 10px 1px rgba(138,138,138,1);
+    -moz-box-shadow: inset 0px 3px 10px 1px rgba(138,138,138,1);
+    box-shadow: inset 0px 3px 10px 1px rgba(138,138,138,1)
+}
+#cardapio {
+    background-color: #a6a6a6;
+}
+.ingrediente {
+    margin: 12px 0;
+}
+.carousel-item img {
+    max-width: 100%;
+}
+#quemsomos p{
+    padding: 20px 80px;
+}
+#imagens-carrosel {
+    -webkit-box-shadow: 0px 0px 8px 0px rgba(0,0,0,1);
+    -moz-box-shadow: 0px 0px 8px 0px rgba(0,0,0,1);
+    box-shadow: 0px 0px 8px 0px rgba(0,0,0,1);
+}
+.select-frete label, p, select {
+    font-size: 15px;
+    margin: 5px 0px;
+    font-weight: bold;
+}
+#cima-home {
+    padding: 15px;
+    min-height: 100px;
+}
+.tamanho-pizza {
+    width: 100%;
+}
