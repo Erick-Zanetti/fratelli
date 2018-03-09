@@ -230,3 +230,29 @@ h2 {
 .tamanho-pizza {
     width: 100%;
 }
+h3 {
+    margin: 10px;
+    padding: 5px 10px;
+    font-size: 20px;
+    font-weight: bold;
+    color: #FFF;
+    background-color: #646464;
+    font-family: 'Quicksand', sans-serif;
+    font-weight: bold;
+}
+.ingrediente {
+    font-family: 'Quicksand', sans-serif;
+    color: #000
+}
+.ingrediente:nth-of-type(odd) {
+    font-family: 'Quicksand', sans-serif;
+    color: #FFF;
+}
+.ingrediente p{
+    font-size: 14px;
+    font-weight: 300;
+}
+.ingrediente p:nth-of-type(odd) {
+    font-size: 17px;
+    font-weight: 400;    
+}
